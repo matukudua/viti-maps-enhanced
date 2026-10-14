@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "id": "suva", "name": "Suva", "type": "Capital City", "population": "~95,000", "division": "Central" }, "geometry": { "type": "Point", "coordinates": [178.4419, -18.1416] } },
+    { "type": "Feature", "properties": { "id": "lautoka", "name": "Lautoka", "type": "City", "population": "~70,000", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.4507, -17.6169] } },
+    { "type": "Feature", "properties": { "id": "nadi", "name": "Nadi", "type": "Town", "population": "~50,000", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.4164, -17.8031] } },
+    { "type": "Feature", "properties": { "id": "labasa", "name": "Labasa", "type": "Town", "population": "~28,000", "division": "Northern" }, "geometry": { "type": "Point", "coordinates": [179.3833, -16.4333] } },
+    { "type": "Feature", "properties": { "id": "nausori", "name": "Nausori", "type": "Town", "population": "~25,000", "division": "Central" }, "geometry": { "type": "Point", "coordinates": [178.5344, -18.0319] } },
+    { "type": "Feature", "properties": { "id": "ba", "name": "Ba", "type": "Town", "population": "~18,000", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.6742, -17.5343] } },
+    { "type": "Feature", "properties": { "id": "sigatoka", "name": "Sigatoka", "type": "Town", "population": "~10,000", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.5053, -18.1416] } },
+    { "type": "Feature", "properties": { "id": "savusavu", "name": "Savusavu", "type": "Town", "population": "~7,000", "division": "Northern" }, "geometry": { "type": "Point", "coordinates": [179.3333, -16.7833] } },
+    { "type": "Feature", "properties": { "id": "levuka", "name": "Levuka", "type": "Town", "population": "~1,100", "division": "Eastern", "notes": "Former capital, UNESCO site" }, "geometry": { "type": "Point", "coordinates": [178.8333, -17.6833] } },
+    { "type": "Feature", "properties": { "id": "tavua", "name": "Tavua", "type": "Town", "population": "~2,500", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.8500, -17.4333] } }
+  ]
+}

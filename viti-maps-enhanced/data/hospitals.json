@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cwm",
+        "name": "Colonial War Memorial Hospital (CWM)",
+        "type": "Major Hospital",
+        "location": "Suva",
+        "division": "Central",
+        "phone": "3313444",
+        "emergency": "911",
+        "beds": 500,
+        "notes": "National referral hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [178.4336, -18.1347] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lautoka",
+        "name": "Lautoka Hospital",
+        "type": "Major Hospital",
+        "location": "Lautoka",
+        "division": "Western",
+        "phone": "6660399",
+        "emergency": "911",
+        "beds": 339,
+        "notes": "Main Western Division hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [177.4500, -17.6167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "labasa",
+        "name": "Labasa Hospital",
+        "type": "Major Hospital",
+        "location": "Labasa",
+        "division": "Northern",
+        "phone": "8811444",
+        "emergency": "911",
+        "beds": 161,
+        "notes": "Main Northern Division hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [179.3833, -16.4333] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nadi",
+        "name": "Nadi Hospital",
+        "type": "Hospital",
+        "location": "Nadi",
+        "division": "Western",
+        "phone": "6701128",
+        "emergency": "911"
+      },
+      "geometry": { "type": "Point", "coordinates": [177.4167, -17.8000] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sigatoka",
+        "name": "Sigatoka Hospital",
+        "type": "Hospital",
+        "location": "Sigatoka",
+        "division": "Western",
+        "phone": "6500122",
+        "emergency": "911"
+      },
+      "geometry": { "type": "Point", "coordinates": [177.5000, -18.1417] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "savusavu",
+        "name": "Savusavu Hospital",
+        "type": "Hospital",
+        "location": "Savusavu",
+        "division": "Northern",
+        "phone": "8850444",
+        "emergency": "911"
+      },
+      "geometry": { "type": "Point", "coordinates": [179.3333, -16.7833] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ba",
+        "name": "Ba Mission Hospital",
+        "type": "Hospital",
+        "location": "Ba",
+        "division": "Western",
+        "phone": "6674000"
+      },
+      "geometry": { "type": "Point", "coordinates": [177.6742, -17.5343] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tavua",
+        "name": "Tavua Hospital",
+        "type": "Hospital",
+        "location": "Tavua",
+        "division": "Western",
+        "phone": "6680022"
+      },
+      "geometry": { "type": "Point", "coordinates": [177.8500, -17.4333] }
+    }
+  ]
+}

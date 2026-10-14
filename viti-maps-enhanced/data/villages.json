@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "id": "waivaka", "name": "Waivaka", "type": "Village", "province": "Namosi", "division": "Central", "notes": "Connected via Starlink Universal Service (2026)", "starlink": true }, "geometry": { "type": "Point", "coordinates": [178.1500, -18.0500] } },
+    { "type": "Feature", "properties": { "id": "viseisei", "name": "Viseisei", "type": "Village", "province": "Ba", "division": "Western", "notes": "Traditional village near Nadi" }, "geometry": { "type": "Point", "coordinates": [177.4167, -17.7833] } },
+    { "type": "Feature", "properties": { "id": "navua", "name": "Navua", "type": "Town/Village area", "province": "Serua", "division": "Central" }, "geometry": { "type": "Point", "coordinates": [178.1667, -18.2167] } },
+    { "type": "Feature", "properties": { "id": "korotogo", "name": "Korotogo", "type": "Village", "province": "Nadroga-Navosa", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.5333, -18.1833] } },
+    { "type": "Feature", "properties": { "id": "namosi", "name": "Namosi", "type": "Village", "province": "Namosi", "division": "Central" }, "geometry": { "type": "Point", "coordinates": [178.1167, -18.0333] } },
+    { "type": "Feature", "properties": { "id": "nasigatoka", "name": "Nasigatoka", "type": "Village", "province": "Namosi", "division": "Central", "notes": "Starlink rollout site" }, "geometry": { "type": "Point", "coordinates": [178.1333, -18.0667] } },
+    { "type": "Feature", "properties": { "id": "narukunibua", "name": "Narukunibua", "type": "Village", "province": "Namosi", "division": "Central", "notes": "Starlink rollout site" }, "geometry": { "type": "Point", "coordinates": [178.1000, -18.0833] } },
+    { "type": "Feature", "properties": { "id": "sabeto", "name": "Sabeto", "type": "Village", "province": "Ba", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [177.4833, -17.7500] } },
+    { "type": "Feature", "properties": { "id": "denarau", "name": "Denarau", "type": "Settlement", "province": "Ba", "division": "Western", "notes": "Tourism area near Nadi" }, "geometry": { "type": "Point", "coordinates": [177.3667, -17.7667] } },
+    { "type": "Feature", "properties": { "id": "pacific-harbour", "name": "Pacific Harbour", "type": "Settlement", "province": "Serua", "division": "Central" }, "geometry": { "type": "Point", "coordinates": [178.2500, -18.2500] } },
+    { "type": "Feature", "properties": { "id": "korovou", "name": "Korovou", "type": "Town/Village", "province": "Tailevu", "division": "Central" }, "geometry": { "type": "Point", "coordinates": [178.5500, -17.9167] } },
+    { "type": "Feature", "properties": { "id": "rakiraki", "name": "Rakiraki", "type": "Town/Village", "province": "Ra", "division": "Western" }, "geometry": { "type": "Point", "coordinates": [178.1667, -17.3500] } },
+    { "type": "Feature", "properties": { "id": "nabouwalu", "name": "Nabouwalu", "type": "Village", "province": "Bua", "division": "Northern" }, "geometry": { "type": "Point", "coordinates": [178.7000, -16.9833] } },
+    { "type": "Feature", "properties": { "id": "waiyevo", "name": "Waiyevo", "type": "Village", "province": "Cakaudrove", "division": "Northern", "notes": "Taveuni Island" }, "geometry": { "type": "Point", "coordinates": [180.0000, -16.8000] } },
+    { "type": "Feature", "properties": { "id": "somosomo", "name": "Somosomo", "type": "Village", "province": "Cakaudrove", "division": "Northern", "notes": "Taveuni Island" }, "geometry": { "type": "Point", "coordinates": [179.9833, -16.7833] } },
+    { "type": "Feature", "properties": { "id": "taveuni-settlement", "name": "Taveuni settlements", "type": "Settlement", "province": "Cakaudrove", "division": "Northern" }, "geometry": { "type": "Point", "coordinates": [179.9500, -16.8167] } },
+    { "type": "Feature", "properties": { "id": "kadavu-vunisea", "name": "Vunisea", "type": "Village", "province": "Kadavu", "division": "Eastern", "notes": "Kadavu Island main village" }, "geometry": { "type": "Point", "coordinates": [178.1667, -19.0500] } },
+    { "type": "Feature", "properties": { "id": "rotuma", "name": "Ahau (Rotuma)", "type": "Village", "province": "Rotuma", "division": "Eastern", "notes": "Rotuma Island" }, "geometry": { "type": "Point", "coordinates": [177.0667, -12.5000] } },
+    { "type": "Feature", "properties": { "id": "lakeba", "name": "Tubou (Lakeba)", "type": "Village", "province": "Lau", "division": "Eastern", "notes": "Lau Group" }, "geometry": { "type": "Point", "coordinates": [178.8000, -18.2333] } },
+    { "type": "Feature", "properties": { "id": "vanuabalavu", "name": "Lomaloma", "type": "Village", "province": "Lau", "division": "Eastern", "notes": "Vanua Balavu" }, "geometry": { "type": "Point", "coordinates": [179.2500, -17.2000] } }
+  ]
+}

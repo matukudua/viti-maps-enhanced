@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viti Maps Enhanced · Fiji Interactive Platform</title>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="map"></div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>Viti Maps <span class="version">Enhanced</span></h1>
+      <p class="tagline">Fiji’s practical map · villages, health, weather & more</p>
+    </div>
+
+    <!-- Search -->
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search places, hospitals..." autocomplete="off" />
+      <div id="search-results" class="search-results"></div>
+    </div>
+
+    <!-- Find nearest -->
+    <button class="btn btn-primary" id="btn-nearest">
+      📍 Find nearest hospital to me
+    </button>
+
+    <!-- Layers -->
+    <div class="section">
+      <h2>Layers</h2>
+      <div class="layer-list">
+        <label class="layer-item">
+          <input type="checkbox" id="layer-hospitals" checked />
+          <span class="swatch hospital"></span>
+          <span>Hospitals</span>
+        </label>
+        <label class="layer-item">
+          <input type="checkbox" id="layer-towns" checked />
+          <span class="swatch town"></span>
+          <span>Towns & Cities</span>
+        </label>
+        <label class="layer-item">
+          <input type="checkbox" id="layer-villages" checked />
+          <span class="swatch village"></span>
+          <span>Villages & Settlements</span>
+        </label>
+        <label class="layer-item disabled">
+          <input type="checkbox" id="layer-weather" disabled />
+          <span class="swatch weather"></span>
+          <span>Weather (Himawari) <span class="badge">soon</span></span>
+        </label>
+        <label class="layer-item disabled">
+          <input type="checkbox" id="layer-satellite" disabled />
+          <span class="swatch satellite"></span>
+          <span>Satellite Imagery <span class="badge">soon</span></span>
+        </label>
+        <label class="layer-item disabled">
+          <input type="checkbox" id="layer-starlink" disabled />
+          <span class="swatch starlink"></span>
+          <span>Starlink Coverage <span class="badge">soon</span></span>
+        </label>
+        <label class="layer-item disabled">
+          <input type="checkbox" id="layer-gov" disabled />
+          <span class="swatch gov"></span>
+          <span>Gov / Projects <span class="badge">soon</span></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div class="section">
+      <h2>Legend</h2>
+      <div class="legend">
+        <div class="legend-item"><span class="swatch hospital"></span> Major / Sub-divisional Hospitals</div>
+        <div class="legend-item"><span class="swatch town"></span> Towns & Cities</div>
+        <div class="legend-item"><span class="swatch village"></span> Villages / Settlements</div>
+        <div class="legend-item"><span class="swatch starlink-dot"></span> Starlink-connected (demo)</div>
+      </div>
+    </div>
+
+    <!-- Status -->
+    <div class="status-bar">
+      <div>Prototype v0.2 · Oct 2026</div>
+      <div>Data: sample + public sources</div>
+      <div class="links">
+        <a href="docs/DATA_STRUCTURE.md" target="_blank">Data structure</a> ·
+        <a href="README.md" target="_blank">README</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Toggle sidebar on mobile -->
+  <button class="sidebar-toggle" id="sidebar-toggle" title="Toggle panel">☰</button>
+
+  <!-- Info toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- Attribution -->
+  <div class="map-attribution">
+    © OpenStreetMap · Prototype by Grok · Not affiliated with Government of Fiji
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
